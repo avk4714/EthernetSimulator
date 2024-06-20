@@ -1,3 +1,10 @@
+""" Simple Ethernet Simulator Design
+Design Requirements:
+1. Two nodes capable of sending and receiving messages.
+2. An ethernet channel that transports the messages between the nodes.
+3. A simulator that traverses through the events as time proceeds.
+"""
+
 import queue
 
 class Node:
